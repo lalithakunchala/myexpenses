@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://unpkg.com/flatpickr"></script>
+    <title>Assignment</title>
+</head>
+<body>
+    <div class="container p-5">
+        <div class="p-5 text-center" ><img class="img-fluid" src="https://i.imgur.com/6zvUNZA.jpg"/></div>
+        <div class="row">
+            <!-- left box -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5  m-1 mr-5 border border-warning">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-sm-6  m-1 border-right">
+                    <div class="row">
+                    <div class="font col-12 p-3 text-center">Increment By</div>
+                    <div class="col-12 p-2 text-center"><input id="val" type="text" placeholder="Enter a Number"/></div>
+                    <div class="col-12 p-5 text-center"><button id="inc" class="btn btn-secondary ">INCREMENT</button></div>
+                    </div>
+                </div>
+                <div id="display" class="col-12 col-sm-12 col-md-5 col-sm-5 m-1 inc ">0</div>
+            </div>
+        </div>
+        <!-- Right box -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5  m-1 border">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-sm-6  m-1 border-right">
+                    <div class="row border-right">
+                    <div class="font col-12 p-3 text-center mb-4">  </div>
+                    <div class="col-12 p-2 text-center">
+                        <!-- <input class="demo" value="" id="date" type="text" placeholder="Pick Date & Time"> -->
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input id="date" type='text' placeholder="Pick Date & Time" class="form-control" />
+                            <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-12 p-5 text-center"><button id="time" class="btn btn-secondary ">SUBMIT</button></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 m-1">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <img id="moon" src="https://i.imgur.com/2uff3Aj.jpg" />
+                            <p class="p-1">Hi</p>
+                          <p class="card-text"id="good">Good Morning.</p>
+                          <p class="card-text" id="v1">variable 1.</p>
+                          <p class="card-text"id="v2" >variable 2.</p>
+                          <p class="card-text"id="v3">variable 3.</p>
+                        </div>
+                      </div>
+                </div>
+           
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js" ></script>
+    <script src="https://unpkg.com/flatpickr"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+</body>
+</html>

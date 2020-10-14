@@ -1,0 +1,22 @@
+.font{
+    font-size:24px;
+}
+
+.inc{
+    font-size: 120px;
+    text-align: center;
+    padding:10px;
+    color:rgb(190, 180, 180);
+}
+
+.border{
+    border-radius: 12px;
+}
+
+.card{
+    border:none;
+}
+
+.demo {
+    width: 100%;
+  }
